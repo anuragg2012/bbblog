@@ -1,0 +1,24 @@
+  .cid-u7gQ0TXEhM {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    background-color: transparent;
+  }
+  .cid-u7gQ0TXEhM .mbr-overlay {
+    background-color: #ffffff;
+    opacity: 0.4;
+  }
+  .cid-u7gQ0TXEhM form .mbr-section-btn {
+    text-align: center;
+    width: 100%;
+  }
+  .cid-u7gQ0TXEhM form .mbr-section-btn .btn {
+    display: inline-flex;
+  }
+  @media (max-width: 991px) {
+    .cid-u7gQ0TXEhM form .mbr-section-btn .btn {
+      width: 100%;
+    }
+  }
+  .cid-u7gQ0TXEhM .content-head {
+    max-width: 800px;
+  }

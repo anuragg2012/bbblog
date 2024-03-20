@@ -22,12 +22,32 @@
             "tsConfig": "tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/assets/web/assets/mobirise-icons2"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/bootstrap/css/bootstrap.min.css",
+              "src/assets/theme/css/style.css",
+              "src/assets/socicon/css/styles.css",
+              "src/assets/dropdown/css/style.css",
+              "src/assets/parallax/jarallax.css",
+              "src/assets/mobirise/css/additional.css"
             ],
-            "scripts": [],
+            "scripts": [
+              "src/assets/parallax/jarallax.js",
+              "src/assets/bootstrap/js/bootstrap.bundle.min.js",
+              "src/assets/dropdown/js/navbar-dropdown.js",
+              "src/assets/scrollgallery/scroll-gallery.js",
+              "src/assets/masonry/masonry.pkgd.min.js",
+              "src/assets/imagesloaded/imagesloaded.pkgd.min.js",
+              "src/assets/mbr-switch-arrow/mbr-switch-arrow.js",
+              "src/assets/smoothscroll/smooth-scroll.js",
+              "src/assets/theme/js/script.js",
+              "src/assets/ytplayer/index.js",
+              "src/assets/formoid/formoid.min.js",
+              "src/app/main.js"
+            ],
             "server": "src/main.server.ts",
             "prerender": true,
             "ssr": {
@@ -44,8 +64,8 @@
                 },
                 {
                   "type": "anyComponentStyle",
-                  "maximumWarning": "2kb",
-                  "maximumError": "4kb"
+                  "maximumWarning": "25kb",
+                  "maximumError": "25kb"
                 }
               ],
               "outputHashing": "all"
