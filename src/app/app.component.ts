@@ -12,7 +12,7 @@ import { AboutComponent } from './about/about.component';
   imports: [CommonModule, RouterOutlet,RouterLink, RouterLinkActive,NavBarComponent,FooterComponent,HomeComponent,AboutComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
-  providers:[[{provide: LocationStrategy, useClass: HashLocationStrategy}]]
+  providers:[{provide: LocationStrategy, useClass: HashLocationStrategy}]
 })
 export class AppComponent {
   title = 'bb';
